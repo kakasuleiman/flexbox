@@ -1,0 +1,74 @@
+.flexClass-Container {
+			display: flex;
+			background: -webkit-linear-gradient(left, #05aae2, #52b84a) !important;
+			background: -o-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: -moz-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: linear-gradient(to right, #05aae2, #52b84a) !important;
+			opacity: 0.9;
+			margin: 20px 0 0;
+		}
+		
+		.flexClass-Container > .flexClass {
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		
+		.flexClass-ContainerDirection {
+			display: flex;
+			background: -webkit-linear-gradient(left, #05aae2, #52b84a) !important;
+			background: -o-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: -moz-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: linear-gradient(to right, #05aae2, #52b84a) !important;
+			opacity: 0.9;
+			margin: 20px 0 0;
+			flex-direction: column;
+		}
+		
+		.flexClass-ContainerDirection > .flexClassDirection {
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		
+		.flexClass-ContainerDirectionReverse {
+			display: flex;
+			background: -webkit-linear-gradient(left, #05aae2, #52b84a) !important;
+			background: -o-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: -moz-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: linear-gradient(to right, #05aae2, #52b84a) !important;
+			opacity: 0.9;
+			margin: 20px 0 0;
+			flex-direction: column-reverse;
+		}
+		
+		.flexClass-ContainerDirectionReverse > .flexClassDirectionReverse {
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		
+		.flexClass-ContainerCentre {
+			display: flex;
+			background: -webkit-linear-gradient(left, #05aae2, #52b84a) !important;
+			background: -o-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: -moz-linear-gradient(right, #05aae2, #52b84a) !important;
+			background: linear-gradient(to right, #05aae2, #52b84a) !important;
+			opacity: 0.9;
+			margin: 20px 0 0;
+			justify-content:center;
+		}
+		
+		.flexClass-ContainerCentre > .flexClassCentre{
+			background-color: #f1f1f1;
+			margin: 10px;
+			padding: 20px;
+			font-size: 30px;
+		}
+		
+		.detail > h5 {
+			font-weight: 600;
+		}
